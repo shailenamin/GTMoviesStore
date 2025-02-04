@@ -9,26 +9,47 @@
         <hr />
         <p><b>Description:</b> {{ template_data.movie.description }}</p>
         <p><b>Price:</b> ${{ template_data.movie.price }}</p>
+<<<<<<< HEAD
 
       <p class="card-text">
           <form method="post"
             action="{% url 'cart.add' id=template_data.movie.id %}">
+=======
+        <p class="card-text">
+          <form method="post"
+            action="{% url 'cart.add'
+            id=template_data.movie.id %}">
+>>>>>>> main
             <div class="row">
               {% csrf_token %}
               <div class="col-auto">
                 <div class="input-group col-auto">
                   <div class="input-group-text">Quantity
                     </div>
+<<<<<<< HEAD
                   <input type="number" min="1" max="10" class="form-control quantity-input" name="quantity" value="1">
                 </div>
               </div>
               <div class="col-auto">
                 <button class="btn bg-dark text-white" type="submit">Add to cart</button>
+=======
+                  <input type="number" min="1" max="10"
+                    class="form-control quantity-input"
+                    name="quantity" value="1">
+                </div>
+              </div>
+              <div class="col-auto">
+                <button class="btn bg-dark text-white"
+                  type="submit">Add to cart</button>
+>>>>>>> main
               </div>
             </div>
           </form>
         </p>
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
         <h2>Reviews</h2>
         <hr />
         <ul class="list-group">
