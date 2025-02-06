@@ -17,12 +17,13 @@ def index(request):
                   {'template_data': template_data})
 
 def show(request, id):
-    movie = movies[id - 1]
+    movie = Movie.objects.get(id=id)
+    reviews = Review.objects.filter(movie=movie)
     template_data = {}
-    template_data['title'] = movie['name']
+    template_data['title'] = movie.name
     template_data['movie'] = movie
-    return render(request, 'movies/show.html',
-                  {'template_data': template_data})
+    template_data['reviews'] = reviews
+    return render(request, 'movies/show.html',{'template_data': template_data})
 
 @login_required
 def create_review(request, id):
