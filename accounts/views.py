@@ -41,6 +41,19 @@ def signup(request):
             template_data['form'] = form
             return render(request, 'accounts/signup.html', {'template_data': template_data})
 
+def resetPassword(request):
+    template_data = {}
+    template_data['title'] = 'Reset Password'
+    if request.method == 'GET':
+        return render(request, 'accounts/resetPassword.html', {'template_data': template_data})
+    elif request.method == 'POST':
+        username = request.POST.get('username')
+        password = request.POST.get('password')
+        user = User.objects.get(username=username)
+        user.set_password(password)
+        user.save()
+        return redirect('accounts.login')
+
 @login_required
 def orders(request):
     template_data = {}
