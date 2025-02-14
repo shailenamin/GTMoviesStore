@@ -13,6 +13,11 @@
 
 .ms-footer {
   background-color: #202020;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 50px;
 }
 
 .ms-footer p {
@@ -23,6 +28,13 @@
 .ms-footer a:hover {
   color: #6ab43e;
   text-decoration: none;
+}
+
+.ms-footer-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .ms-footer-bottom span{
