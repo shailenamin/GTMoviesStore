@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% block content %}
+{% load static %}
 <header class="masthead bg-index text-white text-center py-4">
   <div class="container d-flex align-items-center flex-column pt-2">
     <h2>GT Movies Store</h2>
@@ -11,6 +12,14 @@
     <div class="row mt-3">
       <div class="col mx-auto text-center mb-3">
         <h4>Welcome to a movie store designed specifically for Georgia Tech students and faculty!</h4>
+        <h5>The GT Movies Store allows user to find new movies they would like to watch. From there, users can add the movie(s) to their cart, purchase the movie(s), and enjoy. There is a comprehensive review feature that allows users to write, edit, and browse reviews for specific movies they are interested in!</h5>
+        <h5>Get started using the Yellowjackets' premier movies store. Create your account or sign-in today!</h5>
+        <a class="btn bg-dark text-white" href="{% url 'movies.index' %}">
+            Browse Movies Now!
+        </a>
+        <div class="col-md-6 mx-auto mb-3 text-center">
+          <img src="{% static 'img/GT.png' %}" class="max-width-100" style="padding-top: 10px;" alt="GT" />
+        </div>
       </div>
     </div>
   </div>

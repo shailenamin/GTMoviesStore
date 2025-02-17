@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ecb0f1a3-e119-4754-9c6c-8f61c9b98cc0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GTMoviesStore/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/GTMoviesStore/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GTMoviesStore/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/GTMoviesStore/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/home/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
