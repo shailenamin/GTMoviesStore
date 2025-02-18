@@ -32,7 +32,7 @@ html, body {
   bottom: 0;
   left: 0;
   right: 0;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
 .ms-footer p {
@@ -46,7 +46,7 @@ html, body {
 }
 
 .ms-footer-bottom {
-  position: fixed;
+  position: relative;
   bottom: 0;
   left: 0;
   right: 0;
