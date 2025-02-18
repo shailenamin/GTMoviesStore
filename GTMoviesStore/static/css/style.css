@@ -136,7 +136,7 @@ img[alt="about"] {
 }
 
 .bg-index {
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../img/background.jpg") no-repeat fixed;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../img/home_background.png") no-repeat fixed;
   background-size: cover;
   background-position: center;
   padding: 6rem 0;
