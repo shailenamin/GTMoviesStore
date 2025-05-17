@@ -2,7 +2,6 @@
 
 GT MovieStore is a Django-based web application designed to showcase movie listings, allow users to manage watchlists, and explore detailed film information. Built as a class project, the app simulates a digital storefront experience tailored to movie fans and students learning full-stack development.
 
-🔗 **Live Demo:** [https://shailenamin.github.io/GTMoviesStore](https://shailenamin.github.io/GTMoviesStore)  
 🛠️ **Tech Stack:** Django · HTML/CSS · Bootstrap · PostgreSQL · JavaScript
 
 ## Features
